@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 
-$fontRed: rgb(190, 69, 32);
+$fontDark: rgb(34, 34, 34);
+$fontRed: rgb(238, 66, 14);
 $bodyBackground: rgb(235, 235, 235);
 
 body {
@@ -30,8 +31,7 @@ nav {
         justify-content: space-around;
 
         padding: 20px 0 0 0;
-        /* text-align: right; */
-        font-size: 16px;
+        font-size: 18px;
 
         ul li {
             list-style: none;
@@ -45,7 +45,7 @@ nav {
         }
 
         li a {
-            color: black;
+            color: $fontDark;
         }
 
         li a:hover {
@@ -105,4 +105,41 @@ a {
 
 ul li ul li a {
     transition: all 0.5s ease;
+}
+
+/* ------------------------ HOME ------------------------ */
+
+.homeTop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    img {
+        border-radius: 15px 0px 0px 15px;
+    }
+}
+
+.homeTopText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+
+    a {
+        border: 2px solid $fontDark;
+        color: $fontDark;
+        padding: .5rem;
+        margin-top: 2rem;
+        font-size: larger;
+        font-weight: 900;
+        width: 100px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    a:hover {
+        color: $fontRed;
+        border: 2px solid $fontRed;
+    }
 }
