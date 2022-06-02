@@ -197,10 +197,30 @@ ul li ul li a {
 
 footer {
     background-color: $darkBackground;
+}
+
+.footerHeading {
+
+    padding-top: 2rem;
 
     h1 {
         text-align: center;
-        padding-top: 3rem;
+        font-size: 50px;
+        border: solid 1px $fontDark;
+        padding: 0.5rem;
+        width: 500px;
+        border-radius: 5px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 530px) {
+
+    .footerHeading {
+        h1 {
+            font-size: 30px;
+            width: 350px;
+        }
     }
 }
 
@@ -451,6 +471,189 @@ footer {
 @media screen and (max-width: 1000px) {
 
     .fireSafetyDiv {
+        width: 90%;
+    }
+}
+
+/* ------------------------ FIRE EXTENGUISHERS ------------------------ */
+
+.fireEx {
+    width: 60%;
+    margin: auto;
+
+    h1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        margin-bottom: 2rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+        line-height: 1.5rem;
+    }
+
+    ul {
+        padding-left: 2rem;
+    }
+
+    li {
+        padding: 0.5rem;
+    }
+}
+
+.fireExTopBox {
+    display: flex;
+    background-color: $darkBackground;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+
+    img {
+        width: 400px;
+    }
+
+    div {
+        padding: 2rem;
+    }
+}
+
+table,
+th,
+td {
+    border: solid 1px $fontDark;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.fireExTableTop {
+    td {
+        background-color: rgb(135, 203, 243);
+    }
+}
+
+.fireExTableCol {
+    background-color: rgb(227, 238, 223);
+}
+
+@media screen and (max-width: 1060px) {
+
+    table {
+        width: 400px !important;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    table {
+        width: 350px !important;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 10px;
+    }
+}
+
+.fireExBottomP {
+    color: $fontRed;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .fireEx {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1290px) {
+
+    .fireExTopBox {
+        flex-direction: column;
+
+        img {
+            width: 90%;
+        }
+    }
+}
+
+/* ------------------------ ELECTRIC ------------------------ */
+
+.electricDiv {
+    width: 60%;
+    margin: auto;
+
+    h1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        margin-bottom: 2rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+        line-height: 1.5rem;
+    }
+}
+
+.electricSpanP {
+    color: $fontRed;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .electricDiv {
+        width: 90%;
+    }
+}
+
+/* ------------------------ ELECTRIC ------------------------ */
+
+.aboutDiv {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+
+    h1 {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        margin-bottom: 2rem;
+    }
+
+    p {
+        margin-bottom: 2rem;
+        line-height: 1.5rem;
+    }
+
+    ul {
+        padding-left: 2rem;
+    }
+
+    li {
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .aboutDiv {
         width: 90%;
     }
 }
