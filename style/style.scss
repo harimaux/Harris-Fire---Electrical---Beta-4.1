@@ -163,6 +163,8 @@ ul li ul li a {
         top: 20px;
         cursor: pointer;
         z-index: 20;
+        background-color: $bodyBackground;
+        border-radius: 5px;
 
         div {
             width: 35px;
@@ -392,14 +394,14 @@ footer {
 .homeCard {
     border: solid 2px $fontDark;
     height: 470px;
-    width: 204px;
+    width: 274px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.986);
     margin: 3rem;
     text-align: center;
 
     img {
-        border-radius: 8px 8px 0px 0px;
+        border-radius: 7px 7px 0px 0px;
     }
 
     h3 {
@@ -421,7 +423,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
 
     .homeCards {
         flex-direction: column;
