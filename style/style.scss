@@ -195,6 +195,10 @@ ul li ul li a {
     .mobileBtnColor {
         background-color: $fontRed !important;
     }
+
+    .mobileBtnBackground {
+        background-color: unset;
+    }
 }
 
 /* ------------------------ FOOTER ------------------------ */
@@ -215,6 +219,7 @@ footer {
         width: 500px;
         border-radius: 5px;
         margin: auto;
+        margin-top: 2rem;
     }
 }
 
@@ -668,7 +673,7 @@ td {
     z-index: -1;
     
     img {
-        width: 1920px;
+        width: auto;
         opacity: .6;
     }
 }

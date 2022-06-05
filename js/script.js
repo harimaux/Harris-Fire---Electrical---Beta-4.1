@@ -18,4 +18,6 @@ mobileBtn.addEventListener("click", () => {
   menuLine1.classList.toggle("mobileBtnColor");
   menuLine2.classList.toggle("mobileBtnColor");
   menuLine3.classList.toggle("mobileBtnColor");
+
+  mobileBtn.classList.toggle("mobileBtnBackground");
 });

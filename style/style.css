@@ -178,6 +178,9 @@ ul li ul li a {
   .mobileBtnColor {
     background-color: #ee420e !important;
   }
+  .mobileBtnBackground {
+    background-color: unset;
+  }
 }
 
 /* ------------------------ FOOTER ------------------------ */
@@ -197,6 +200,7 @@ footer {
   width: 500px;
   border-radius: 5px;
   margin: auto;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 530px) {
@@ -745,7 +749,7 @@ td {
 }
 
 .aboutBackground img {
-  width: 1920px;
+  width: auto;
   opacity: .6;
 }
 
